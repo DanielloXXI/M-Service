@@ -1,0 +1,48 @@
+.footer {
+    height: 117px;
+    padding: 0 7.8125vw 0 7.8125vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo-link {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo-image {
+    width: 77px;
+    height: 77px;
+}
+
+.footer__logo-text {
+    margin-left: 20px;
+    font-family: 'Quicksand';
+    font-weight: 500;
+    font-size: 50px;
+    color: black;
+}
+
+.footer__reviews {
+    font-family: "Ubuntu";
+    font-weight: 400;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+}
+
+.footer__reviews-image {
+    width: 29px;
+    height: 27px;
+    margin-left: 9px;
+}
+
+.footer__tel {
+    font-family: 'Ubuntu';
+    font-weight: 400;
+    font-size: 50px;
+    color: black;
+    text-decoration: none;
+}

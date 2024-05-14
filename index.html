@@ -6,27 +6,120 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>M-Service</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Russo+One&family=Ubuntu:wght@300;400&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-
-
-
-    <!-- <div id="livesklad-widget"></div>
-    <script type="text/javascript">
-        // Задаем параметры виджета при загрузке
-        window.liveskladOptions = {
-            // Ключ апи, индивидуально сгенерированный для вас
-            api_key: "TSCLSxHsGH6sMFFtusfn"
-        };
-        (function () {
-            var script = document.createElement('script');
-            script.type = 'text/javascript'; script.async = true;
-            script.src = ('https:' == document.location.protocol ? 'https://' : 'http://')
-                + 'my.livesklad.com/static/widget.js';
-            document.getElementsByTagName('head')[0].appendChild(script);
-        })();
-    </script> -->
+<body class="page">
+    <header class="header">
+        <div class="header__logo">
+            <a href="#" class="header__logo-link">
+                <img class="header__logo-image" src="./images/logo.svg" alt="Логотип">
+                <span class="header__logo-text">M-service</span>
+            </a>
+        </div>
+        <a href="tel:+79022866216" class="header__tel">+7 902 286 6216</a>
+    </header>
+    <main class="main">
+        <section class="section__repair">
+            <h1 class="repair__title">Ремонт электроники
+                по демократичным ценам!
+            </h1>
+            <div class="repair__track">
+                <div class="repair__track-widget" id="livesklad-widget"></div>
+                <div class="repair__track-vk">
+                    <a href="#"><img src="./images/vk.svg" class="repair__track-vk-icon" alt="Логотип ВК"></a>
+                    <div class="repair__track-vk-arrow">
+                        <img src="./images/arrow.svg" class="repair__track-vk-arrow-image" alt="Стрелка">
+                        <span class="repair__track-vk-arrow-text">vk group</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section__services">
+            <h2 class="services__title">Наши услуги</h2>
+            <div class="services__images">
+                <img src="./images/phone.jpg" class="services__image">
+                <img src="./images/notebok-green.jpg" class="services__image">
+                <img src="./images/motherboard.jpg" class="services__image">
+                <img src="./images/lock.jpg" class="services__image">
+            </div>
+            <div class="services__cards">
+                <div class="services__card">
+                    <div class="services__card-block-title">
+                        <div class="services__card-circle services__card-circle_blue">
+                            <span class="services__card-circle-text">1</span>
+                        </div>
+                        <h3 class="services__card-title">Восстановление смартфонов</h3>
+                    </div>
+                    <p class="services__card-paragraph">Разбился экран, разбился дисплей, быстро разряжается, не
+                        заряжается, попала вода, не работают динамики и т.д.</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-block-title">
+                        <div class="services__card-circle services__card-circle_green">
+                            <span class="services__card-circle-text">2</span>
+                        </div>
+                        <h3 class="services__card-title">Восстановление ноутбуков</h3>
+                    </div>
+                    <p class="services__card-paragraph">Не включается, неисправна батарея, повреждён экран,
+                        перегревается, периодически выключается, не работает клавиатура и т.д.</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-block-title">
+                        <div class="services__card-circle services__card-circle_blue">
+                            <span class="services__card-circle-text">3</span>
+                        </div>
+                        <h3 class="services__card-title">Восстановление материнских плат</h3>
+                    </div>
+                    <p class="services__card-paragraph">Повреждён сокет, не включается, сбиты компоненты, повреждён
+                        pcie, не работают usb и т.д.</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-block-title">
+                        <div class="services__card-circle services__card-circle_green">
+                            <span class="services__card-circle-text">4</span>
+                        </div>
+                        <h3 class="services__card-title">Разблокировка устройств</h3>
+                    </div>
+                    <p class="services__card-paragraph">Разблокировка устройств практически любых производителей!</p>
+                </div>
+                <div class="services__card">
+                    <div class="services__card-block-title">
+                        <div class="services__card-circle services__card-circle_blue">
+                            <span class="services__card-circle-text">5</span>
+                        </div>
+                        <h3 class="services__card-title">Не нашли свою проблему?</h3>
+                    </div>
+                    <p class="services__card-paragraph">Звоните по номеру <a href="tel:+79022866216"
+                            class="services__card-paragraph-tel">+7902286621</a>.
+                        Расскажите о своей проблеме,
+                        узнайте стоимость и сроки ремонта. Мы всегда готовы Вам помочь в решении любых проблем с Вашей
+                        техникой!</p>
+                </div>
+            </div>
+        </section>
+        <section class="section__map">
+            <h2 class="map__title">Мы на карте</h2>
+            <iframe
+                src="https://yandex.ru/map-widget/v1/?um=constructor%3A17731eb2f70f342dbe5f8d8135e59f61e61f57d46aa56ef3a5d566cce49b6759&amp;source=constructor"
+                width="100%" height="720" frameborder="0" class="map__widget"></iframe>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__logo">
+            <a href="#" class="footer__logo-link">
+                <img class="footer__logo-image" src="./images/logo.svg" alt="Логотип">
+                <span class="footer__logo-text">M-service</span>
+            </a>
+        </div>
+        <a href="#" class="footer__reviews">Наши отзывы <img src="./images/star.png" alt="Звезда синяя" class="footer__reviews-image"></a>
+        <a href="tel:+79022866216" class="footer__tel">+7 902 286 6216</a>
+    </footer>
+    <script src="./components/liveSkladWidget.js"></script>
 </body>
 
 </html>
