@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/header.css);
 @import url(../blocks/footer.css);
+@import url(../blocks/popup.css);
 
 html {
     scroll-behavior: smooth;
@@ -24,7 +25,54 @@ html {
 .repair__track {
     display: flex;
     flex-direction: column;
+}
+
+.repair__track-status {
+    width: 424px;
+    height: 161px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: column;
+    border: 5px solid white;
+    border-radius: 10px;
+    margin: 30px 0 115px 0;
+    box-sizing: border-box;
+}
+
+.repair__track-status-text {
+    color: white;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.repair__track-status-button {
+    margin-top: 21px;
+    border: none;
+    background-color: white;
+    font-family: 'Ubuntu';
+    font-size: 30px;
+    font-weight: 400;
+    width: 211px;
+    height: 50px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-sizing: border-box;
+    outline: none;
+    transition: 0.3s;
+}
+
+.repair__track-status-button:hover {
+    border: 2px solid rgba(0, 0, 0, 0.27);
+}
+
+.repair__track-status-button:focus {
+    background-color: #A4A4A4;
+    border: 2px solid rgba(0, 0, 0, 0.27);
 }
 
 .repair__track-vk {
