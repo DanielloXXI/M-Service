@@ -9,7 +9,7 @@
     align-items: center;
     visibility: hidden;
     opacity: 0;
-    transition: visibility 0.5s, opacity 0.5s linear;
+    transition: visibility 0.26s ease-in, opacity 0.26s ease-in;
     z-index: 999;
 }
 
@@ -36,6 +36,14 @@
 
 .popup__close-button {
     position: absolute;
-    top: 10px;
-    right: 10px;
+    top: 7px;
+    right: 7px;
+    background-image: url(../images/x.svg);
+    border: none;
+    width: 13px;
+    height: 13px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    box-sizing: border-box;
 }
