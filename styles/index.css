@@ -195,12 +195,17 @@ html {
     text-decoration: none;
 }
 
+.section__map {
+    border-bottom: 18px solid #5076F6;
+}
+
 .map__title {
     font-family: 'Ubuntu';
     font-size: 50px;
     font-weight: 400;
     text-align: center;
-    margin-bottom: 75px;
+    padding-bottom: 75px;
+    border-bottom: 18px solid #5076F6;
 }
 
 .map__widget {
