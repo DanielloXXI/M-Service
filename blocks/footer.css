@@ -31,6 +31,8 @@
     font-size: 40px;
     color: black;
     text-decoration: none;
+    display: flex;
+    align-items: center;
 }
 
 .footer__reviews-image {
@@ -45,4 +47,128 @@
     font-size: 50px;
     color: black;
     text-decoration: none;
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1900px) {
+
+    .footer {
+        height: 94px;
+        padding: 0 7.9861vw 0 7.9861vw;
+    }
+
+    .footer__logo-image {
+        width: 66px;
+        height: 66px;
+    }
+
+    .footer__logo-text {
+        font-size: 40px;
+    }
+
+    .footer__reviews {
+        font-size: 35px;
+    }
+
+    .footer__reviews-image {
+        margin-left: 13px;
+    }
+
+    .footer__tel {
+        font-size: 40px;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+
+    .footer {
+        height: 84px;
+        padding: 0 7.8125vw 0 7.8125vw;
+    }
+
+    .footer__logo-image {
+        width: 58px;
+        height: 58px;
+    }
+
+    .footer__logo-text {
+        font-size: 30px;
+    }
+
+    .footer__reviews {
+        font-size: 26px;
+    }
+
+    .footer__reviews-image {
+        margin-left: 4px;
+        width: 24px;
+        height: 23px;
+    }
+
+    .footer__tel {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 1023px) {
+
+    .footer {
+        height: 41px;
+        padding: 0 9.375vw 0 9.375vw;
+    }
+
+    .footer__logo-image {
+        width: 26px;
+        height: 26px;
+    }
+
+    .footer__logo-text {
+        font-size: 15px;
+        margin-left: 4px;
+    }
+
+    .footer__reviews {
+        font-size: 17px;
+    }
+
+    .footer__reviews-image {
+        margin-left: 1px;
+        width: 13px;
+        height: 13px;
+    }
+
+    .footer__tel {
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 479px) {
+
+    .footer {
+        padding: 0 6.25vw 0 6.25vw;
+        height: 29px;
+    }
+
+    .footer__logo-image {
+        width: 17px;
+        height: 17px;
+    }
+
+    .footer__logo-text {
+        font-size: 10px;
+        margin-left: 4px;
+    }
+
+    .footer__reviews {
+        font-size: 10px;
+    }
+
+    .footer__reviews-image {
+        margin-left: 4px;
+        width: 8px;
+        height: 9px;
+    }
+
+    .footer__tel {
+        font-size: 10px;
+    }
 }
